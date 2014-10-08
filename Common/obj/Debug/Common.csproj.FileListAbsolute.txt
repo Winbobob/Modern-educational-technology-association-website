@@ -1,0 +1,22 @@
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\dbamet.Common.dll
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\dbamet.Common.pdb
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\COM.Excel.dll
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\Excel.dll
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\OpenSmtp.dll
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\OWC10Chart.dll
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\office.dll
+D:\CodematicDemo\etwebaspnet\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\CodematicDemo\etwebaspnet\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\CodematicDemo\etwebaspnet\Common\obj\Debug\dbamet.Common.dll
+D:\CodematicDemo\etwebaspnet\Common\obj\Debug\dbamet.Common.pdb
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\dbamet.Common.dll
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\dbamet.Common.pdb
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\COM.Excel.dll
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\Excel.dll
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\OpenSmtp.dll
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\OWC10Chart.dll
+D:\网站 现代教育技术协会文化网站\Common\obj\Debug\dbamet.Common.dll
+D:\网站 现代教育技术协会文化网站\Common\obj\Debug\dbamet.Common.pdb
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\office.dll
+D:\网站 现代教育技术协会文化网站\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\网站 现代教育技术协会文化网站\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

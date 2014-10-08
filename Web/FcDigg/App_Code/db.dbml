@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="dig" Class="dbcms" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\dig.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="digConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.she" Member="she">
+    <Type Name="she">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="url" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="jscode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="icp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="state" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="state_demo" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Keywords" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cls" Member="cls">
+    <Type Name="cls">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="jb" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="keywords" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="display" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="cls_news" Member="news" ThisKey="id" OtherKey="cid" Type="news" />
+    </Type>
+  </Table>
+  <Table Name="dbo.link" Member="link">
+    <Type Name="link">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="display" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="state" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="url" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="logo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="demo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tag" Member="tag">
+    <Type Name="tag">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="hits" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[user]" Member="user">
+    <Type Name="user">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="pwd" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="jb" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="photo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="user_news" Member="news" ThisKey="id" OtherKey="uid" Type="news" />
+      <Association Name="user_ping" Member="ping" ThisKey="id" OtherKey="uid" Type="ping" />
+      <Association Name="user_favorite" Member="favorite" ThisKey="id" OtherKey="uid" Type="favorite" />
+      <Association Name="user_dings" Member="dings" ThisKey="id" OtherKey="uid" Type="dings" />
+      <Association Name="user_friend" Member="friend" ThisKey="id" OtherKey="fid" Type="friend" />
+      <Association Name="user_user1" Member="user1" ThisKey="id" OtherKey="uid" Type="user1" />
+      <Association Name="user_f_info" Member="f_info" ThisKey="id" OtherKey="t_uid" Type="f_info" />
+      <Association Name="user_t_info" Member="t_info" ThisKey="id" OtherKey="f_uid" Type="t_info" />
+    </Type>
+  </Table>
+  <Table Name="dbo.news" Member="news">
+    <Type Name="news">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="author" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cont" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="laiy" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ndate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="tags" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ping" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="hit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pic" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ding" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="uid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="news_ping" Member="ping1" ThisKey="id" OtherKey="nid" Type="ping" />
+      <Association Name="news_favorite" Member="favorite" ThisKey="id" OtherKey="nid" Type="favorite" />
+      <Association Name="news_dings" Member="dings" ThisKey="id" OtherKey="nid" Type="dings" />
+      <Association Name="user_news" Member="user" ThisKey="uid" OtherKey="id" Type="user" IsForeignKey="true" />
+      <Association Name="cls_news" Member="cls" ThisKey="cid" OtherKey="id" Type="cls" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ping" Member="ping">
+    <Type Name="ping">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cont" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="uid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ip" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="news_ping" Member="news" ThisKey="nid" OtherKey="id" Type="news" IsForeignKey="true" />
+      <Association Name="user_ping" Member="user" ThisKey="uid" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.favorite" Member="favorite">
+    <Type Name="favorite">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="uid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="news_favorite" Member="news" ThisKey="nid" OtherKey="id" Type="news" IsForeignKey="true" />
+      <Association Name="user_favorite" Member="user" ThisKey="uid" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dings" Member="dings">
+    <Type Name="dings">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="uid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="news_dings" Member="news" ThisKey="nid" OtherKey="id" Type="news" IsForeignKey="true" />
+      <Association Name="user_dings" Member="user" ThisKey="uid" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.friend" Member="friend">
+    <Type Name="friend">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="uid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="state" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="demo" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="user_friend" Member="user" ThisKey="fid" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.user1" Member="user1">
+    <Type Name="user1">
+      <Column Name="uid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sex" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="url" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="qq" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="msn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="qianm" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="shengri" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="user_user1" Member="user" ThisKey="uid" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.t_info" Member="t_info">
+    <Type Name="t_info">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cont" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="f_uid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="t_uid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ndate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="state" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="user_t_info" Member="user" ThisKey="f_uid" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.f_info" Member="f_info">
+    <Type Name="f_info">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cont" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="f_uid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="t_uid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ndate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="user_f_info" Member="user" ThisKey="t_uid" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,18 @@
+D:\CodematicDemo\etwebaspnet\DBUtility\bin\Debug\dbamet.DBUtility.dll
+D:\CodematicDemo\etwebaspnet\DBUtility\bin\Debug\dbamet.DBUtility.pdb
+D:\CodematicDemo\etwebaspnet\DBUtility\bin\Debug\IBatisNet.Common.dll
+D:\CodematicDemo\etwebaspnet\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+D:\CodematicDemo\etwebaspnet\DBUtility\bin\Debug\MySql.Data.dll
+D:\CodematicDemo\etwebaspnet\DBUtility\bin\Debug\System.Data.SQLite.DLL
+D:\CodematicDemo\etwebaspnet\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\CodematicDemo\etwebaspnet\DBUtility\obj\Debug\dbamet.DBUtility.dll
+D:\CodematicDemo\etwebaspnet\DBUtility\obj\Debug\dbamet.DBUtility.pdb
+D:\网站 现代教育技术协会文化网站\DBUtility\bin\Debug\dbamet.DBUtility.dll
+D:\网站 现代教育技术协会文化网站\DBUtility\bin\Debug\dbamet.DBUtility.pdb
+D:\网站 现代教育技术协会文化网站\DBUtility\bin\Debug\IBatisNet.Common.dll
+D:\网站 现代教育技术协会文化网站\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+D:\网站 现代教育技术协会文化网站\DBUtility\bin\Debug\MySql.Data.dll
+D:\网站 现代教育技术协会文化网站\DBUtility\bin\Debug\System.Data.SQLite.DLL
+D:\网站 现代教育技术协会文化网站\DBUtility\obj\Debug\dbamet.DBUtility.dll
+D:\网站 现代教育技术协会文化网站\DBUtility\obj\Debug\dbamet.DBUtility.pdb
+D:\网站 现代教育技术协会文化网站\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache

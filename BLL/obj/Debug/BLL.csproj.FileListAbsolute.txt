@@ -1,0 +1,88 @@
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.BLL.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.BLL.pdb
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.Common.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.DAL.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.Model.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.DBUtility.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\Excel.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\COM.Excel.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\OpenSmtp.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\IBatisNet.Common.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\System.Data.SQLite.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\IBatisNet.DataMapper.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\office.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\MySql.Data.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.DBUtility.pdb
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.DAL.pdb
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.Model.pdb
+D:\CodematicDemo\etwebaspnet\BLL\bin\Debug\dbamet.Common.pdb
+D:\CodematicDemo\etwebaspnet\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\CodematicDemo\etwebaspnet\BLL\obj\Debug\dbamet.BLL.dll
+D:\CodematicDemo\etwebaspnet\BLL\obj\Debug\dbamet.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.BLL.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Common.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DAL.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Model.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\OpenSmtp.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\IBatisNet.Common.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\System.Data.SQLite.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\IBatisNet.DataMapper.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\office.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Model.pdb
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Common.pdb
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\obj\Debug\dbamet.BLL.dll
+C:\Documents and Settings\Administrator\桌面\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\obj\Debug\dbamet.BLL.pdb
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.BLL.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.BLL.pdb
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Common.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DAL.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Model.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DBUtility.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\Excel.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\COM.Excel.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\OpenSmtp.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\IBatisNet.Common.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\System.Data.SQLite.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\IBatisNet.DataMapper.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\office.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\MySql.Data.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DBUtility.pdb
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.DAL.pdb
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Model.pdb
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\bin\Debug\dbamet.Common.pdb
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\obj\Debug\dbamet.BLL.dll
+E:\网站 现代教育技术协会文化网站\源文件\etwebaspnet\BLL\obj\Debug\dbamet.BLL.pdb
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.BLL.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.BLL.pdb
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.Common.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.DAL.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.Model.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.DBUtility.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\OpenSmtp.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\COM.Excel.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\Excel.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\IBatisNet.Common.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\System.Data.SQLite.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\IBatisNet.DataMapper.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\MySql.Data.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.DBUtility.pdb
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.DAL.pdb
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.Model.pdb
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\dbamet.Common.pdb
+D:\网站 现代教育技术协会文化网站\BLL\obj\Debug\dbamet.BLL.dll
+D:\网站 现代教育技术协会文化网站\BLL\obj\Debug\dbamet.BLL.pdb
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\office.dll
+D:\网站 现代教育技术协会文化网站\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\网站 现代教育技术协会文化网站\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache

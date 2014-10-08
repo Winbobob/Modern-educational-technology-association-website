@@ -1,0 +1,10 @@
+D:\CodematicDemo\etwebaspnet\Model\bin\Debug\dbamet.Model.dll
+D:\CodematicDemo\etwebaspnet\Model\bin\Debug\dbamet.Model.pdb
+D:\CodematicDemo\etwebaspnet\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\CodematicDemo\etwebaspnet\Model\obj\Debug\dbamet.Model.dll
+D:\CodematicDemo\etwebaspnet\Model\obj\Debug\dbamet.Model.pdb
+D:\网站 现代教育技术协会文化网站\Model\bin\Debug\dbamet.Model.dll
+D:\网站 现代教育技术协会文化网站\Model\bin\Debug\dbamet.Model.pdb
+D:\网站 现代教育技术协会文化网站\Model\obj\Debug\dbamet.Model.dll
+D:\网站 现代教育技术协会文化网站\Model\obj\Debug\dbamet.Model.pdb
+D:\网站 现代教育技术协会文化网站\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
